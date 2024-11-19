@@ -1,0 +1,45 @@
+img {
+    width: 200px;
+  }
+  
+  .brown {
+    background-color: burlywood;
+  }
+
+  .navbar {
+    display:flex; 
+    gap:2rem;
+  }
+
+  .links {
+    display: block;
+  }
+
+  .links.close{
+    display: none;
+  }
+
+  .input {
+
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    gap:1rem;
+    
+  }
+
+  .input.error{
+    border-color: red;
+  }
+
+  .input.valid{
+    border-color: green;
+  }
+
+  .input .feedback{
+    display:none;
+  }
+
+  .input.error .feedback{
+    display:block;
+  }
